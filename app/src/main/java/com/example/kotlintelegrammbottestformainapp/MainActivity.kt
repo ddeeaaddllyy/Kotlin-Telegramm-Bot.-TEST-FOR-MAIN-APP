@@ -12,8 +12,8 @@ import java.net.URLEncoder
 
 class MainActivity : AppCompatActivity() {
     private lateinit var buttonStart: Button
-    private val BOT_TOKEN = "8488953991:AAHhZ9WW6x7kwm8Ylh-Pd-XCPA9V9q8akvg"
-    private val CHAT_ID = listOf("5893799306", "7031426620")
+    private val BOT_TOKEN = "-"
+    private val CHAT_ID = listOf("-", "-")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
