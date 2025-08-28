@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
                     client.newCall(request).execute().use { response ->
                         if (!response.isSuccessful) {
-                            println("Error eblan: ${response.code}")
+                            println("Error: ${response.code}")
                         }
                     }
                 }
