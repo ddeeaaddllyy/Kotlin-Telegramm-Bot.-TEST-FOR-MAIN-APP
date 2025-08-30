@@ -13,7 +13,7 @@ import java.net.URLEncoder
 class MainActivity : AppCompatActivity() {
     private lateinit var buttonStart: Button
     private val BOT_TOKEN = "-"
-    private val CHAT_ID = listOf("-", "-")
+    private val CHAT_ID = listOf("-", "-") // all main users's id  
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
