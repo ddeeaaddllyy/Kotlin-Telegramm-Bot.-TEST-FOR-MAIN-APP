@@ -51,4 +51,10 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
+	data class mainDataClass: MainActivity (
+		val id: int
+		val condition: Boolean 
+	)
+
 }
