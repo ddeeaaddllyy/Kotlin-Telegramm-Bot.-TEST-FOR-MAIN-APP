@@ -52,6 +52,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+	// TODO: create condition of the castomer in the main app 
+	// but creators 
+
 	data class mainDataClass: MainActivity (
 		val id: int
 		val condition: Boolean 
